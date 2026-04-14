@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My AI Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>AI Chat</h1>
+      <p>Powered by Groq</p>
+    </div>
+
+    <div class="messages" id="messages">
+      <div class="welcome">Send a message to start chatting...</div>
+    </div>
+
+    <div class="input-area">
+      <textarea id="userInput" placeholder="Type your message here..."></textarea>
+      <button id="sendBtn" onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
